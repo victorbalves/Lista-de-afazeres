@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lista de Afazeres</title>
+</head>
+<body>
+    <h1>Lista de Afazeres | VBA</h1>
+    
+    <div class="content">
+
+        <div class="content-add-item">
+            <input type="text" id="input-new-task" placeholder="Digite sua nova tarrefa! ">
+            <button onclick="newTask()" id="btn-new-task" title="Clique aqui para adicionar uma nova tarrefa.">
+                ➕
+            </button>
+        </div>
+        <div class="content-body">
+            <ol id="to-do-list">
+                
+            </ol>
+        </div>
+
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
